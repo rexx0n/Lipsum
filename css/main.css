@@ -1,7 +1,56 @@
-body {
-    margin: 0 auto;
-}
+
 .block {
-    box-shadow:#c9c9c9 1px 1px 1px 1px;
+    box-shadow:#c9c9c9 0px 0px 1px 1px;
     margin: 59px 73px 54px 68px;
+}
+.kryg {
+    position:  absolute;
+    left: -20px;
+}
+header p {
+    font-size: 36px;
+    font-weight: 700;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    border-top:#f2ac04 solid 8px;
+}
+.logo img {
+    width: 90px;
+    height: 90px;
+}
+.logo hr {
+    height: 52px;
+    margin-left: 40px;
+    margin-right: 46px;
+}
+.logo__p {
+    font-size: 20px;
+    font-weight: lighter;
+    color: #f2ac04;
+}
+.logo__p span {
+    font-size: 14px;
+    font-weight:normal;
+    color: #929292;
+}
+.panel {
+    display: flex;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    color: #a6a6a6;
+}
+.panel__p {
+    font-size: 18px;
+    margin-left: 77px;
+}
+.panel__p--active {
+ margin-left: 0px;
+}
+.container {
+    margin: 0px 35px 19px 40px;
+}
+.caption {
+    font-size: 12px;
 }
