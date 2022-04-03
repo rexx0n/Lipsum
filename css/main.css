@@ -53,4 +53,21 @@ header p {
 }
 .caption {
     font-size: 12px;
+    color: #555656;
+}
+.pictures__img1 {
+    box-shadow: #b0b0b0 0px 0px 1px 3px;
+}
+.pictures__img1 p {
+    text-align: center;
+    font-size: 18px;
+}
+.pictures {
+    display: flex;
+}
+.pictures__preview p{
+
+}
+.pictures__preview p span {
+    
 }
