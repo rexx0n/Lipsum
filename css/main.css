@@ -69,8 +69,7 @@ header p {
 }
 .pictures {
   display: flex;
-}
-.pictures__preview p {
+  margin-bottom: 40px;
 }
 .pictures__preview p span {
   font-size: 40px;
@@ -108,3 +107,29 @@ i {
 .more p {
     display: inline-block;
 }
+h3 {
+  font-size: 18px;
+  color: #555656;
+}
+.info {
+  display: flex;
+}
+.info__weekday {
+  margin: 0;
+  text-align: center;
+   font-size: 10px;
+   color: #777777;
+}
+.info__string {
+  display: flex;
+  align-items: center;
+}
+.info__string hr {
+  height: 31px;
+  margin: 0px 11px 0px 10px;
+}
+.info__weekday span {
+  font-size: 18px;
+  color: #f2ac04;
+}
+
