@@ -1,3 +1,8 @@
+@media screen and (max-width: 320px) {
+  body {
+    background-color: #2b2b29;
+  }
+}
 .center {
   display: flex;
   justify-content: center;
@@ -191,4 +196,20 @@ h3 {
 .info__number--adres p {
   color: #757575;
   margin-left: 19px;
+}
+.clients__line {
+  display: flex;
+  align-items: center;
+}
+.clients__hr {
+  margin: 0px 6px 0px 0px;
+  width: 37px;
+  height: 0;
+}
+.clients__hr--2 {
+  margin: 0px 0px 0px 7px;
+  width: 768px;
+}
+.clients__line p {
+  font-size: 14px;
 }
