@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,7 +7,6 @@
     <link rel="stylesheet" href="css/main.css">
     <title>Lipsum</title>
 </head>
-
 <body>
     <div class="center">
         <div class="block">
@@ -23,22 +21,24 @@
             </header>
             <div class="container">
                 <div class="panel">
-                    <p class="panel__p--active">HOME</p>
-                    <p class="panel__p">PRODUCTS</p>
-                    <p class="panel__p">NEWS</p>
-                    <p class="panel__p">ABOUT US</p>
-                    <p class="panel__p">CONTACT US</p>
+                    <a href="#" class="panel__a--active">HOME</a>
+                    <a href="#" class="panel__a">PRODUCTS</a>
+                    <a href="#" class="panel__a">NEWS</a>
+                    <a href="#" class="panel__a">ABOUT US</a>
+                    <a href="#" class="panel__a">CONTACT US</a>
                 </div>
                 <p class="caption">FEATURED PRODUCTS</p>
                 <div class="pictures">
                     <div class="pictures__img1">
                         <img src="img/cactus.png" alt="">
                         <div class="pictures__carousel">
+                            <a href="#"><i class="arrow left"></i></a>
                             <p>Lipsum comoodo Manager</p>
+                            <a href="#"><i class="arrow right"></i></a>
                         </div>
                     </div>
                     <div class="pictures__img2">
-                        <img src="img/Layer 41.png" alt="Layer">
+                        <img src="img/Layer-41.png" alt="Layer">
                         <div class="pictures__preview">
                             <p>Preview Release Available! <br><span>Lispum Data <br> Comoodo</span></p>
                         </div>
@@ -98,9 +98,11 @@
                     <div class="info__post--contact">
                         <h3>Contact Us</h3>
                         <div class="info__number">
-                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14px" height="25px">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                width="14px" height="25px">
                                 <defs>
-                                    <filter filterUnits="userSpaceOnUse" id="Filter_0" x="0px" y="0px" width="14px" height="25px">
+                                    <filter filterUnits="userSpaceOnUse" id="Filter_0" x="0px" y="0px" width="14px"
+                                        height="25px">
                                         <feOffset in="SourceAlpha" dx="0" dy="1" />
                                         <feGaussianBlur result="blurOut" stdDeviation="0" />
                                         <feFlood flood-color="rgb(255, 255, 255)" result="floodOut" />
@@ -114,11 +116,13 @@
                                         </feMerge>
                                     </filter>
                                     <filter id="Filter_1">
-                                        <feFlood flood-color="rgb(192, 192, 192)" flood-opacity="0.96" result="floodOut" />
-                                        <feComposite operator="atop" in="floodOut" in2="SourceGraphic" result="compOut" />
+                                        <feFlood flood-color="rgb(192, 192, 192)" flood-opacity="0.96"
+                                            result="floodOut" />
+                                        <feComposite operator="atop" in="floodOut" in2="SourceGraphic"
+                                            result="compOut" />
                                         <feBlend mode="normal" in="compOut" in2="SourceGraphic" />
                                     </filter>
-                            
+
                                 </defs>
                                 <g filter="url(#Filter_0)">
                                     <g filter="url(#Filter_1)">
@@ -134,11 +138,11 @@
                             <p>(626) 921-4592</p>
                         </div>
                         <div class="info__number--email">
-                            <img src="img/Shape 26.png" alt="email">
+                            <img src="img/Shape-26.png" alt="email">
                             <p>info@orlinresearch.com</p>
                         </div>
                         <div class="info__number--adres">
-                            <img src="img/Shape 1.png" alt="home">
+                            <img src="img/Shape-1.png" alt="home">
                             <p>Orlin Research, Inc. <br> 7412 Ridgewood Ave <br> Chevy Chase, MD 20815 <br> USA</p>
                         </div>
                     </div>
@@ -150,9 +154,34 @@
                         <hr class="clients__hr--2">
                     </div>
                 </div>
+                <div class="clients_img">
+                    <img src="img/clients.img.png" alt="clients">
+                </div>
+                <hr class="line">
+                <footer>
+                    <div class="footer__logo">
+                        <img src="img/circle2.png" alt="circle">
+                        <p class="footer__p">Lipsum</p>
+                    </div>
+                    <div class="footer__panel">
+                        <a href="#" class="footer__a">HOME</a>
+                        <hr>
+                        <a href="#" class="footer__a">ABOUT US</a>
+                        <hr>
+                        <a href="#" class="footer__a">WORK</a>
+                        <hr>
+                        <a href="#" class="footer__a">SERVICES</a>
+                        <hr>
+                        <a href="#" class="footer__a">RESOURCES</a>
+                        <hr>
+                        <a href="#" class="footer__a">ARTICLES</a>
+                        <hr>
+                        <a href="#" class="footer__a">CONTACT</a>
+                    </div>
+                    <p class="footer__p--2">© 2009 Orlin Research, Inc</p>
+                </footer>
             </div>
         </div>
     </div>
 </body>
-
 </html>
