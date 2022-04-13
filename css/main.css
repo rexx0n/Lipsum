@@ -59,9 +59,6 @@ header p {
 }
 .panel__a--active {
   margin-left: 0px;
-  text-decoration: none;
-  color: #929292;
-  padding: 15px 0px 15px 0px;
 }
 .container {
   margin: 0px 35px 19px 40px;
